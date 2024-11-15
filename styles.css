@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+.header {
+    background-color: #f04c44;
+    color: #f4f2ef;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.main-container {
+    padding: 30px 0;
+}
+
+.text-center h2 {
+    color: #f04c44;
+    font-size: 26px;
+}
+
+.text-center p,
+a {
+    font-size: 16px;
+    color: #333;
+}
+
+a:hover {
+    color: #f04c44;
+    text-decoration: none;
+}
+
+.content-row {
+    margin-bottom: 30px;
+}
+
+.table-responsive {
+    display: flex;
+    justify-content: center;  
+    align-items: center;     
+    margin-bottom: 50px;
+    height: 100%;              
+}
+
+.table-container {
+    width: 38%;
+    max-width: 600px;
+}
+
+.table {
+    margin: 0 auto;
+}
+
+.table-bordered th,
+.table-bordered td {
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+}
+
+footer form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f04c44;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer form .form-label {
+    font-weight: bold;
+}
+
+footer form input,
+footer form select,
+footer form button {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+footer form button:hover {
+    background-color: #0056b3;
+}
